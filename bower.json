@@ -5,5 +5,9 @@
 	"dependencies": {
 		"angular": "~1"
 	},
-	"readmeFilename": "README.md"
+	"readmeFilename": "README.md",
+	"repository": {		
+		"type": "git",		
+		"url": "git://github.com/jobrapido/angular-inview.git"		
+	}
 }
