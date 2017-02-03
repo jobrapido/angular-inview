@@ -145,7 +145,7 @@ function inViewDirective ($parse) {
       // Execute in-view callback
       var inViewExpression = $parse(attrs.inView);
       var dispose = inviewInfoSignal.subscribe(function (info) {
-        scope.$applyAsync(function () {
+        scope.$apply(function () {
           inViewExpression(scope, {
             '$inview': info.inView,
             '$inviewInfo': info
